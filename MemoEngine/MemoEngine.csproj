@@ -170,6 +170,7 @@
     <Content Include="DotNetNote\BoardView.aspx" />
     <Content Include="DotNetNote\BoardWrite.aspx" />
     <Content Include="DotNetNote\Controls\BoardEditorFormControl.ascx" />
+    <Content Include="DotNetNote\Controls\BoardSearchFormSingleControl.ascx" />
     <Content Include="DotNetNote\Default.aspx" />
     <Content Include="DotNetNote\ImageDown.aspx" />
     <Content Include="DotNetNote\ImageText.aspx" />
@@ -308,6 +309,13 @@
     </Compile>
     <Compile Include="DotNetNote\Controls\BoardEditorFormControl.ascx.designer.cs">
       <DependentUpon>BoardEditorFormControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DotNetNote\Controls\BoardSearchFormSingleControl.ascx.cs">
+      <DependentUpon>BoardSearchFormSingleControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DotNetNote\Controls\BoardSearchFormSingleControl.ascx.designer.cs">
+      <DependentUpon>BoardSearchFormSingleControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="DotNetNote\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

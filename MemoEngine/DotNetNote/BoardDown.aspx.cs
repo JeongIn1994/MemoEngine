@@ -30,7 +30,7 @@ namespace MemoEngine.DotNetNote
 
                 Response.Clear();
                 Response.ContentType = "application/octet-stream";
-                Response.AddHeader("Content-Disposision", "attachment;filename="
+                Response.AddHeader("Content-Disposition", "attachment;filename="
                     + Server.UrlPathEncode(
                         (fileName.Length > 50) ?
                         fileName.Substring(fileName.Length - 50, 50) : fileName));

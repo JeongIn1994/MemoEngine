@@ -128,6 +128,7 @@ namespace MemoEngine.DotNetNote.Controls
                     case BoardWriteFormType.Write:
                         repository.Add(note);
                         Response.Redirect("BoardList.aspx");
+                        Response.Write(note.Name);
                         break;
                     case BoardWriteFormType.Modify:
                         note.ModifyIp = Request.UserHostAddress;

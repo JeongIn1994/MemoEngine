@@ -169,10 +169,130 @@
     <Content Include="DotNetNote\BoardReply.aspx" />
     <Content Include="DotNetNote\BoardView.aspx" />
     <Content Include="DotNetNote\BoardWrite.aspx" />
+    <Content Include="DotNetNote\Controls\AdvancedPagingSingleWithBootstrap.ascx" />
+    <Content Include="DotNetNote\Controls\BoardCommentControl.ascx" />
     <Content Include="DotNetNote\Controls\BoardEditorFormControl.ascx" />
     <Content Include="DotNetNote\Controls\BoardSearchFormSingleControl.ascx" />
     <Content Include="DotNetNote\Default.aspx" />
     <Content Include="DotNetNote\ImageDown.aspx" />
+    <Content Include="DotNetNote\images\dnn\blank.gif" />
+    <Content Include="DotNetNote\images\dnn\commentcount.gif" />
+    <Content Include="DotNetNote\images\dnn\icon_delete_red.gif" />
+    <Content Include="DotNetNote\images\dnn\img.jpg" />
+    <Content Include="DotNetNote\images\dnn\key_login.gif" />
+    <Content Include="DotNetNote\images\dnn\new.gif" />
+    <Content Include="DotNetNote\images\dnn\re.gif" />
+    <Content Include="DotNetNote\images\ext\ext_ace.gif" />
+    <Content Include="DotNetNote\images\ext\ext_ai.gif" />
+    <Content Include="DotNetNote\images\ext\ext_alz.gif" />
+    <Content Include="DotNetNote\images\ext\ext_arj.gif" />
+    <Content Include="DotNetNote\images\ext\ext_asa.gif" />
+    <Content Include="DotNetNote\images\ext\ext_asax.gif" />
+    <Content Include="DotNetNote\images\ext\ext_ascx.gif" />
+    <Content Include="DotNetNote\images\ext\ext_asf.gif" />
+    <Content Include="DotNetNote\images\ext\ext_asmx.gif" />
+    <Content Include="DotNetNote\images\ext\ext_asp.gif" />
+    <Content Include="DotNetNote\images\ext\ext_aspx.gif" />
+    <Content Include="DotNetNote\images\ext\ext_asx.gif" />
+    <Content Include="DotNetNote\images\ext\ext_au.gif" />
+    <Content Include="DotNetNote\images\ext\ext_avi.gif" />
+    <Content Include="DotNetNote\images\ext\ext_bat.gif" />
+    <Content Include="DotNetNote\images\ext\ext_bmp.gif" />
+    <Content Include="DotNetNote\images\ext\ext_c.gif" />
+    <Content Include="DotNetNote\images\ext\ext_cab.gif" />
+    <Content Include="DotNetNote\images\ext\ext_chm.gif" />
+    <Content Include="DotNetNote\images\ext\ext_com.gif" />
+    <Content Include="DotNetNote\images\ext\ext_config.gif" />
+    <Content Include="DotNetNote\images\ext\ext_cpp.gif" />
+    <Content Include="DotNetNote\images\ext\ext_cs.gif" />
+    <Content Include="DotNetNote\images\ext\ext_csproj.gif" />
+    <Content Include="DotNetNote\images\ext\ext_css.gif" />
+    <Content Include="DotNetNote\images\ext\ext_css_old.gif" />
+    <Content Include="DotNetNote\images\ext\ext_csv.gif" />
+    <Content Include="DotNetNote\images\ext\ext_disco.gif" />
+    <Content Include="DotNetNote\images\ext\ext_dll.gif" />
+    <Content Include="DotNetNote\images\ext\ext_doc.gif" />
+    <Content Include="DotNetNote\images\ext\ext_doc_.gif" />
+    <Content Include="DotNetNote\images\ext\ext_eml.gif" />
+    <Content Include="DotNetNote\images\ext\ext_exe.gif" />
+    <Content Include="DotNetNote\images\ext\ext_exe_.gif" />
+    <Content Include="DotNetNote\images\ext\ext_gif.gif" />
+    <Content Include="DotNetNote\images\ext\ext_gz.gif" />
+    <Content Include="DotNetNote\images\ext\ext_h.gif" />
+    <Content Include="DotNetNote\images\ext\ext_hlp.gif" />
+    <Content Include="DotNetNote\images\ext\ext_htm.gif" />
+    <Content Include="DotNetNote\images\ext\ext_html.gif" />
+    <Content Include="DotNetNote\images\ext\ext_hwp.gif" />
+    <Content Include="DotNetNote\images\ext\ext_hwp_.gif" />
+    <Content Include="DotNetNote\images\ext\ext_hwt.gif" />
+    <Content Include="DotNetNote\images\ext\ext_inc.gif" />
+    <Content Include="DotNetNote\images\ext\ext_ini.gif" />
+    <Content Include="DotNetNote\images\ext\ext_jpeg.gif" />
+    <Content Include="DotNetNote\images\ext\ext_jpg.gif" />
+    <Content Include="DotNetNote\images\ext\ext_js.gif" />
+    <Content Include="DotNetNote\images\ext\ext_lzh.gif" />
+    <Content Include="DotNetNote\images\ext\ext_m3u.gif" />
+    <Content Include="DotNetNote\images\ext\ext_max.gif" />
+    <Content Include="DotNetNote\images\ext\ext_mdb.gif" />
+    <Content Include="DotNetNote\images\ext\ext_mid.gif" />
+    <Content Include="DotNetNote\images\ext\ext_mov.gif" />
+    <Content Include="DotNetNote\images\ext\ext_mp2.gif" />
+    <Content Include="DotNetNote\images\ext\ext_mp3.gif" />
+    <Content Include="DotNetNote\images\ext\ext_mpe.gif" />
+    <Content Include="DotNetNote\images\ext\ext_mpeg.gif" />
+    <Content Include="DotNetNote\images\ext\ext_mpg.gif" />
+    <Content Include="DotNetNote\images\ext\ext_none.gif" />
+    <Content Include="DotNetNote\images\ext\ext_pcx.gif" />
+    <Content Include="DotNetNote\images\ext\ext_pdb.gif" />
+    <Content Include="DotNetNote\images\ext\ext_pdf.gif" />
+    <Content Include="DotNetNote\images\ext\ext_pdf_.gif" />
+    <Content Include="DotNetNote\images\ext\ext_pdf__.gif" />
+    <Content Include="DotNetNote\images\ext\ext_pls.gif" />
+    <Content Include="DotNetNote\images\ext\ext_png.gif" />
+    <Content Include="DotNetNote\images\ext\ext_ppt.gif" />
+    <Content Include="DotNetNote\images\ext\ext_ppt_.gif" />
+    <Content Include="DotNetNote\images\ext\ext_psd.gif" />
+    <Content Include="DotNetNote\images\ext\ext_ra.gif" />
+    <Content Include="DotNetNote\images\ext\ext_ram.gif" />
+    <Content Include="DotNetNote\images\ext\ext_rar.gif" />
+    <Content Include="DotNetNote\images\ext\ext_rar_.gif" />
+    <Content Include="DotNetNote\images\ext\ext_ra_.gif" />
+    <Content Include="DotNetNote\images\ext\ext_reg.gif" />
+    <Content Include="DotNetNote\images\ext\ext_resx.gif" />
+    <Content Include="DotNetNote\images\ext\ext_rm.gif" />
+    <Content Include="DotNetNote\images\ext\ext_rmi.gif" />
+    <Content Include="DotNetNote\images\ext\ext_rtf.gif" />
+    <Content Include="DotNetNote\images\ext\ext_sql.gif" />
+    <Content Include="DotNetNote\images\ext\ext_sql_old.gif" />
+    <Content Include="DotNetNote\images\ext\ext_swf.gif" />
+    <Content Include="DotNetNote\images\ext\ext_swf_.gif" />
+    <Content Include="DotNetNote\images\ext\ext_sys.gif" />
+    <Content Include="DotNetNote\images\ext\ext_tar.gif" />
+    <Content Include="DotNetNote\images\ext\ext_tga.gif" />
+    <Content Include="DotNetNote\images\ext\ext_tif.gif" />
+    <Content Include="DotNetNote\images\ext\ext_ttf.gif" />
+    <Content Include="DotNetNote\images\ext\ext_txt.gif" />
+    <Content Include="DotNetNote\images\ext\ext_txt_old.gif" />
+    <Content Include="DotNetNote\images\ext\ext_unknown.gif" />
+    <Content Include="DotNetNote\images\ext\ext_unknown_.gif" />
+    <Content Include="DotNetNote\images\ext\ext_vb.gif" />
+    <Content Include="DotNetNote\images\ext\ext_vbs.gif" />
+    <Content Include="DotNetNote\images\ext\ext_vb_old.gif" />
+    <Content Include="DotNetNote\images\ext\ext_vsdisco.gif" />
+    <Content Include="DotNetNote\images\ext\ext_wav.gif" />
+    <Content Include="DotNetNote\images\ext\ext_wax.gif" />
+    <Content Include="DotNetNote\images\ext\ext_webinfo.gif" />
+    <Content Include="DotNetNote\images\ext\ext_wma.gif" />
+    <Content Include="DotNetNote\images\ext\ext_wmv.gif" />
+    <Content Include="DotNetNote\images\ext\ext_wmx.gif" />
+    <Content Include="DotNetNote\images\ext\ext_wri.gif" />
+    <Content Include="DotNetNote\images\ext\ext_wvx.gif" />
+    <Content Include="DotNetNote\images\ext\ext_xaml.gif" />
+    <Content Include="DotNetNote\images\ext\ext_xls.gif" />
+    <Content Include="DotNetNote\images\ext\ext_xls_.gif" />
+    <Content Include="DotNetNote\images\ext\ext_xml.gif" />
+    <Content Include="DotNetNote\images\ext\ext_xml_.gif" />
+    <Content Include="DotNetNote\images\ext\ext_zip.gif" />
     <Content Include="DotNetNote\ImageText.aspx" />
     <Content Include="DotNetNote\ThumbNail.aspx" />
     <Content Include="favicon.ico" />
@@ -303,6 +423,20 @@
     <Compile Include="DotNetNote\BoardWrite.aspx.designer.cs">
       <DependentUpon>BoardWrite.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DotNetNote\Controls\AdvancedPagingSingleWithBootstrap.ascx.cs">
+      <DependentUpon>AdvancedPagingSingleWithBootstrap.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DotNetNote\Controls\AdvancedPagingSingleWithBootstrap.ascx.designer.cs">
+      <DependentUpon>AdvancedPagingSingleWithBootstrap.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DotNetNote\Controls\BoardCommentControl.ascx.cs">
+      <DependentUpon>BoardCommentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DotNetNote\Controls\BoardCommentControl.ascx.designer.cs">
+      <DependentUpon>BoardCommentControl.ascx</DependentUpon>
+    </Compile>
     <Compile Include="DotNetNote\Controls\BoardEditorFormControl.ascx.cs">
       <DependentUpon>BoardEditorFormControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -381,7 +515,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="DotNetNote\Documents\" />
-    <Folder Include="DotNetNote\images\" />
     <Folder Include="DotNetNote\MyFiles\" />
     <Folder Include="Models\" />
   </ItemGroup>

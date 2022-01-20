@@ -5,7 +5,7 @@ namespace MemoEngine.DotNetNote.Controls
 {
     public partial class AdvancedPagingSingleWithBootstrap : System.Web.UI.UserControl
     {
-        public bool SearchMode { get; set; }
+        public bool SearchMode { get; set; } = false;
         public string SearchField { get; set; }
         public string SearchQuery { get; set; }
 
@@ -72,11 +72,12 @@ namespace MemoEngine.DotNetNote.Controls
                 strPage += "<li class=\"disabled\"><a>◁</a><li>";
             }
 
-            for(i = (((PageIndex - 1) / (int)10) * 10 + 1 );
+            for(
+                i = (((PageIndex - 1) / (int)10) * 10 + 1) ;
                 i <= ((((PageIndex - 1 ) / (int)10 )+ 1 ) * 10 );
                 i++)
             {
-                if(i > PageIndex)
+                if(i > PageCount)
                 {
                     break;
                 }

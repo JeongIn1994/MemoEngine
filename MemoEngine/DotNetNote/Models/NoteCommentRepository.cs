@@ -38,7 +38,7 @@ namespace MemoEngine.DotNetNote.Models
         {
             return con.Query<NoteComment>(
                 "Select * From NoteComments Where BoardId = @BoardId",
-                new { BoradId = boardID },
+                new { BoardId = boardID },
                 commandType: CommandType.Text).ToList();
         }
 

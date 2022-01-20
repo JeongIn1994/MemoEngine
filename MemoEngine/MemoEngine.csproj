@@ -165,7 +165,7 @@
     <Content Include="DotNetNote\BoardDelete.aspx" />
     <Content Include="DotNetNote\BoardDown.aspx" />
     <Content Include="DotNetNote\BoardList.aspx" />
-    <Content Include="DotNetNote\BoardModfiy.aspx" />
+    <Content Include="DotNetNote\BoardModify.aspx" />
     <Content Include="DotNetNote\BoardReply.aspx" />
     <Content Include="DotNetNote\BoardView.aspx" />
     <Content Include="DotNetNote\BoardWrite.aspx" />
@@ -395,12 +395,12 @@
     <Compile Include="DotNetNote\BoardList.aspx.designer.cs">
       <DependentUpon>BoardList.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DotNetNote\BoardModfiy.aspx.cs">
-      <DependentUpon>BoardModfiy.aspx</DependentUpon>
+    <Compile Include="DotNetNote\BoardModify.aspx.cs">
+      <DependentUpon>BoardModify.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DotNetNote\BoardModfiy.aspx.designer.cs">
-      <DependentUpon>BoardModfiy.aspx</DependentUpon>
+    <Compile Include="DotNetNote\BoardModify.aspx.designer.cs">
+      <DependentUpon>BoardModify.aspx</DependentUpon>
     </Compile>
     <Compile Include="DotNetNote\BoardReply.aspx.cs">
       <DependentUpon>BoardReply.aspx</DependentUpon>

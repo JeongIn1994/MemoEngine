@@ -11,7 +11,7 @@ namespace MemoEngine.DotNetNote
 {
 
 
-    public partial class BoardReply
+    public partial class BoardModfiy
     {
 
         /// <summary>

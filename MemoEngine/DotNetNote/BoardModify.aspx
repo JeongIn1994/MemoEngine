@@ -1,5 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" 
-    CodeBehind="BoardReply.aspx.cs" ValidateRequest="false" Inherits="MemoEngine.DotNetNote.BoardReply" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
+    CodeBehind="BoardModify.aspx.cs" ValidateRequest="false" Inherits="MemoEngine.DotNetNote.BoardModfiy" %>
 
 <%@ Register Src="~/DotNetNote/Controls/BoardEditorFormControl.ascx" TagPrefix="uc1" TagName="BoardEditorFormControl" %>
 

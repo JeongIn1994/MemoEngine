@@ -180,7 +180,7 @@ namespace MemoEngine.DotNetNote.Models
 
         public int DeleteNote(int id,string password)
         {
-            return con.Execute("DeleteNote", new { Id = id, Password = password }, commandType: CommandType.StoredProcedure);
+            return con.Execute("DelelteNote", new { Id = id, Password = password }, commandType: CommandType.StoredProcedure);
         }
 
         public List<Note> GetNewPhotos()

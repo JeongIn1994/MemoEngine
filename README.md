@@ -29,4 +29,4 @@
 > ![MemoEngine-Read](https://user-images.githubusercontent.com/77004633/150454540-7f07e979-2084-4fba-97a3-ddea5df15a45.png)
 ## １．３　掲示物更新　（　Update　）
 
-##　１．４　掲示物削除　（　Delete　）
+## １．４　掲示物削除　（　Delete　）

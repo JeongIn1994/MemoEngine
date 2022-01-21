@@ -11,7 +11,7 @@
 > <b>バージョン一覧</b><br />
 > DotNetFramework 4.6　<br />
 > Bootstrap 3.4.1<br />
-> JQuery 3.4.1
+> JQuery 3.4.1<br />
 > MSSQL
 ----------------------------
 ## １．１　掲示物作成（ Create )

@@ -26,20 +26,36 @@
 > アップロードしたファイルがある場合、初期画面にその種類によって異なるアイコンで表示される。<br /><br />
 
 > １．１．２　コメント作成
+> 
 > ![MemoEngine-ComentWrite](https://user-images.githubusercontent.com/77004633/150623862-e4be4db0-1353-41eb-aa72-305bd6979ac0.png)<br />
-> 掲示物閲覧状態で作成できる項目。更新はできない。
+> 掲示物閲覧状態で作成できる項目。更新はできない。<br />
+> パスワードはコメント除外の時、使用される。
+
+> １．１．３　返事作成
+> ![MemoEngine-ReplyWrite](https://user-images.githubusercontent.com/77004633/150685581-4d5f1bb1-a684-4ec8-b6ec-85e761289c66.png)<br />
+> 掲示物閲覧画面から返事作成項目を選択し、掲示物に対する返事を作成可能。返事に対する返事も作成可能。<br />
+> 掲示物作成と同じく作成の旅には必要項目を記入しない場合は作成不可能。
 
 > 
 <hr />
 
 ## １．２　閲覧　（ Read )
+> １．２．１　掲示物閲覧
 > ![MemoEngine-Read](https://user-images.githubusercontent.com/77004633/150454540-7f07e979-2084-4fba-97a3-ddea5df15a45.png)
 
 <hr />
 
 ## １．３　更新　（　Update　）
+> １．３．１　掲示物更新
+![MemoEngine-Update](https://user-images.githubusercontent.com/77004633/150685523-96742806-b3ed-4b87-baef-69165fe3dd42.png)
 
 <hr />
 
 ## １．４　削除　（　Delete　）
+> １．４．１　掲示物除外
+![MemoEngine-Delete](https://user-images.githubusercontent.com/77004633/150685553-12f634ef-8020-474a-8e77-bfcce0c35c09.png)<br />
+
+> １．４．２　コメント除外
+![MemoEngine-ComentDelete](https://user-images.githubusercontent.com/77004633/150685540-439cc57d-4432-4f04-84a2-3bd1cd896d36.png)
+
 <hr />

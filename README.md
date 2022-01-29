@@ -70,4 +70,4 @@
 > DotNetFramework 4.6　<br />
 > Bootstrap 3.4.1<br />
 > JQuery 3.4.1<br />
-> MSSQL
+> MSSQL 16.100.46521
